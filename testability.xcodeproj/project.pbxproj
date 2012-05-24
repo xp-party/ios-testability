@@ -18,6 +18,8 @@
 		40346B61155075B700926F9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40346B48155075B600926F9E /* Foundation.framework */; };
 		40346B69155075B700926F9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40346B67155075B700926F9E /* InfoPlist.strings */; };
 		40346B6C155075B700926F9E /* testabilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40346B6B155075B700926F9E /* testabilityTests.m */; };
+		40346B7D1550784A00926F9E /* XPClassWithNoDI.m in Sources */ = {isa = PBXBuildFile; fileRef = 40346B7C1550784A00926F9E /* XPClassWithNoDI.m */; };
+		40346B8015507E4C00926F9E /* XPClassWithDI.m in Sources */ = {isa = PBXBuildFile; fileRef = 40346B7F15507E4C00926F9E /* XPClassWithDI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +37,22 @@
 		40346B46155075B600926F9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		40346B48155075B600926F9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		40346B4A155075B600926F9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		40346B4E155075B700926F9E /* testability-Info.plist */ = {isa = PBXFileReference; path = "testability-Info.plist"; sourceTree = "<group>"; };
+		40346B4E155075B700926F9E /* testability-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testability-Info.plist"; sourceTree = "<group>"; };
 		40346B50155075B700926F9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		40346B52155075B700926F9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		40346B54155075B700926F9E /* testability-Prefix.pch */ = {isa = PBXFileReference; path = "testability-Prefix.pch"; sourceTree = "<group>"; };
-		40346B55155075B700926F9E /* XPAppDelegate.h */ = {isa = PBXFileReference; path = XPAppDelegate.h; sourceTree = "<group>"; };
+		40346B54155075B700926F9E /* testability-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testability-Prefix.pch"; sourceTree = "<group>"; };
+		40346B55155075B700926F9E /* XPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPAppDelegate.h; sourceTree = "<group>"; };
 		40346B56155075B700926F9E /* XPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPAppDelegate.m; sourceTree = "<group>"; };
 		40346B5D155075B700926F9E /* testabilityTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testabilityTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40346B5E155075B700926F9E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		40346B66155075B700926F9E /* testabilityTests-Info.plist */ = {isa = PBXFileReference; path = "testabilityTests-Info.plist"; sourceTree = "<group>"; };
+		40346B66155075B700926F9E /* testabilityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testabilityTests-Info.plist"; sourceTree = "<group>"; };
 		40346B68155075B700926F9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		40346B6A155075B700926F9E /* testabilityTests.h */ = {isa = PBXFileReference; path = testabilityTests.h; sourceTree = "<group>"; };
+		40346B6A155075B700926F9E /* testabilityTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testabilityTests.h; sourceTree = "<group>"; };
 		40346B6B155075B700926F9E /* testabilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testabilityTests.m; sourceTree = "<group>"; };
+		40346B7B1550784A00926F9E /* XPClassWithNoDI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPClassWithNoDI.h; sourceTree = "<group>"; };
+		40346B7C1550784A00926F9E /* XPClassWithNoDI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPClassWithNoDI.m; sourceTree = "<group>"; };
+		40346B7E15507E4C00926F9E /* XPClassWithDI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPClassWithDI.h; sourceTree = "<group>"; };
+		40346B7F15507E4C00926F9E /* XPClassWithDI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPClassWithDI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,8 @@
 		40346B4C155075B700926F9E /* testability */ = {
 			isa = PBXGroup;
 			children = (
+				40406907156E22DE00085863 /* (Un)testable Method */,
+				40346B79155077D500926F9E /* Dependency Injection */,
 				40346B55155075B700926F9E /* XPAppDelegate.h */,
 				40346B56155075B700926F9E /* XPAppDelegate.m */,
 				40346B4D155075B700926F9E /* Supporting Files */,
@@ -141,6 +149,24 @@
 				40346B67155075B700926F9E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40346B79155077D500926F9E /* Dependency Injection */ = {
+			isa = PBXGroup;
+			children = (
+				40346B7B1550784A00926F9E /* XPClassWithNoDI.h */,
+				40346B7C1550784A00926F9E /* XPClassWithNoDI.m */,
+				40346B7E15507E4C00926F9E /* XPClassWithDI.h */,
+				40346B7F15507E4C00926F9E /* XPClassWithDI.m */,
+			);
+			name = "Dependency Injection";
+			sourceTree = "<group>";
+		};
+		40406907156E22DE00085863 /* (Un)testable Method */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "(Un)testable Method";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +278,8 @@
 			files = (
 				40346B53155075B700926F9E /* main.m in Sources */,
 				40346B57155075B700926F9E /* XPAppDelegate.m in Sources */,
+				40346B7D1550784A00926F9E /* XPClassWithNoDI.m in Sources */,
+				40346B8015507E4C00926F9E /* XPClassWithDI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +441,7 @@
 				40346B71155075B700926F9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40346B72155075B700926F9E /* Build configuration list for PBXNativeTarget "testabilityTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +450,7 @@
 				40346B74155075B700926F9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
