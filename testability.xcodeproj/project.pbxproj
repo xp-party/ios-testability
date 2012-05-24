@@ -20,6 +20,7 @@
 		40346B6C155075B700926F9E /* testabilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40346B6B155075B700926F9E /* testabilityTests.m */; };
 		40346B7D1550784A00926F9E /* XPClassWithNoDI.m in Sources */ = {isa = PBXBuildFile; fileRef = 40346B7C1550784A00926F9E /* XPClassWithNoDI.m */; };
 		40346B8015507E4C00926F9E /* XPClassWithDI.m in Sources */ = {isa = PBXBuildFile; fileRef = 40346B7F15507E4C00926F9E /* XPClassWithDI.m */; };
+		40406907156E22DE0008586A /* XPClassWithIUntestableMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 40406907156E22DE00085869 /* XPClassWithIUntestableMethod.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		40346B7C1550784A00926F9E /* XPClassWithNoDI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPClassWithNoDI.m; sourceTree = "<group>"; };
 		40346B7E15507E4C00926F9E /* XPClassWithDI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPClassWithDI.h; sourceTree = "<group>"; };
 		40346B7F15507E4C00926F9E /* XPClassWithDI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPClassWithDI.m; sourceTree = "<group>"; };
+		40406907156E22DE00085869 /* XPClassWithIUntestableMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPClassWithIUntestableMethod.m; sourceTree = "<group>"; };
+		40406907156E22DE0008586B /* XPClassWithIUntestableMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPClassWithIUntestableMethod.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +115,11 @@
 		40346B4C155075B700926F9E /* testability */ = {
 			isa = PBXGroup;
 			children = (
-				40406907156E22DE00085863 /* (Un)testable Method */,
 				40346B79155077D500926F9E /* Dependency Injection */,
 				40346B55155075B700926F9E /* XPAppDelegate.h */,
 				40346B56155075B700926F9E /* XPAppDelegate.m */,
 				40346B4D155075B700926F9E /* Supporting Files */,
+				40406907156E22DE00085865 /* Untestable Method */,
 			);
 			path = testability;
 			sourceTree = "<group>";
@@ -162,11 +165,13 @@
 			name = "Dependency Injection";
 			sourceTree = "<group>";
 		};
-		40406907156E22DE00085863 /* (Un)testable Method */ = {
+		40406907156E22DE00085865 /* Untestable Method */ = {
 			isa = PBXGroup;
 			children = (
+				40406907156E22DE0008586B /* XPClassWithIUntestableMethod.h */,
+				40406907156E22DE00085869 /* XPClassWithIUntestableMethod.m */,
 			);
-			name = "(Un)testable Method";
+			path = "Untestable Method";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +285,7 @@
 				40346B57155075B700926F9E /* XPAppDelegate.m in Sources */,
 				40346B7D1550784A00926F9E /* XPClassWithNoDI.m in Sources */,
 				40346B8015507E4C00926F9E /* XPClassWithDI.m in Sources */,
+				40406907156E22DE0008586A /* XPClassWithIUntestableMethod.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
